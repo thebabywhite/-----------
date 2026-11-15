@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Robo School — курсы по робототехнике для педагогов</title>
+</head>
+<body>
+
+  <!-- Шапка сайта -->
+  <header id="header">
+    <a href="#header">ROBO.SCHOOL</a>
+
+    <nav>
+      <ul>
+        <li><a href="#about">О школе</a></li>
+        <li><a href="#trainers">Тренеры</a></li>
+        <li><a href="#price">Стоимость</a></li>
+      </ul>
+    </nav>
+
+    <a href="tel:+78000001122">+7 800 000 11 22</a>
+  </header>
+
+  <main>
+
+    <!-- Главный экран -->
+    <section id="hero">
+      <div>
+        <h1>ROBO SCHOOL</h1>
+        <p>Курсы повышения квалификации по робототехнике для педагогов начальной школы</p>
+        <a href="#request">Записаться на курс</a>
+      </div>
+      <img src="images/hero.png" alt="Девушка-педагог с блокнотом в руках" width="500" height="600">
+    </section>
+
+    <!-- О школе -->
+    <section id="about">
+      <p><strong>Robo School</strong> — учреждение для формирования кадрового педагогического резерва в сфере робототехники и программирования</p>
+
+      <ul>
+        <li>
+          <strong>10</strong>
+          <p>УМК по различным направлениям по робототехнике</p>
+        </li>
+        <li>
+          <strong>20</strong>
+          <p>Школ, в которых запущена робототехника</p>
+        </li>
+        <li>
+          <strong>100</strong>
+          <p>Педагогов прошедших курсы повышения квалификации</p>
+        </li>
+        <li>
+          <strong>10 000</strong>
+          <p>Обученных детей на базе собственных центров</p>
+        </li>
+      </ul>
+    </section>
+
+    <!-- Что вы получите после курса -->
+    <section id="benefits">
+      <h2>Что вы получите после курса</h2>
+
+      <ul>
+        <li>
+          <h3>Удостоверение</h3>
+          <p>Дающее право преподавать робототехнику для детей 6-12 лет в образовательных учреждениях</p>
+        </li>
+        <li>
+          <h3>Знания</h3>
+          <p>По основам разработки учебно-методических комплексов по робототехнике и программированию</p>
+        </li>
+        <li>
+          <h3>Практику <span title="При наличии свободных мест">i</span></h3>
+          <p>Возможность пройти практику по преподаванию робототехники на базе R:ED LAB (в оффлайн или онлайн формате)</p>
+        </li>
+      </ul>
+    </section>
+
+    <!-- Тренеры -->
+    <section id="trainers">
+      <h2>Профессиональные тренеры</h2>
+
+      <ul>
+        <li>
+          <img src="images/trainer-1.jpg" alt="Ирина Лайм" width="300" height="400">
+          <h3>Ирина Лайм</h3>
+          <p>преподаватель по робототехнике</p>
+          <a href="#">Подробнее</a>
+        </li>
+        <li>
+          <img src="images/trainer-2.jpg" alt="Марина Орлова" width="300" height="400">
+          <h3>Марина Орлова</h3>
+          <p>преподаватель по робототехнике</p>
+          <a href="#">Подробнее</a>
+        </li>
+        <li>
+          <img src="images/trainer-3.jpg" alt="Максим Петров" width="300" height="400">
+          <h3>Максим Петров</h3>
+          <p>преподаватель по программированию</p>
+          <a href="#">Подробнее</a>
+        </li>
+        <li>
+          <img src="images/trainer-4.jpg" alt="Константин Назаров" width="300" height="400">
+          <h3>Константин Назаров</h3>
+          <p>преподаватель по робототехнике</p>
+          <a href="#">Подробнее</a>
+        </li>
+      </ul>
+
+      <div>
+        <button type="button">Назад</button>
+        <button type="button">Вперёд</button>
+      </div>
+    </section>
+
+    <!-- Стоимость -->
+    <section id="price">
+      <h2>Выберите нужный пакет</h2>
+
+      <ul>
+        <li>
+          <h3>PRO</h3>
+          <p><strong>20.000 ₽</strong></p>
+          <p>УМК по робототехнике и программированию</p>
+          <a href="#request">Оставить заявку</a>
+        </li>
+        <li>
+          <h3>ROBO</h3>
+          <p><strong>15.000 ₽</strong></p>
+          <p>УМК по робототехнике</p>
+          <a href="#request">Оставить заявку</a>
+        </li>
+        <li>
+          <h3>PROG</h3>
+          <p><strong>10.000 ₽</strong></p>
+          <p>УМК по программированию</p>
+          <a href="#request">Оставить заявку</a>
+        </li>
+      </ul>
+    </section>
+
+    <!-- Форма заявки -->
+    <section id="request">
+      <div>
+        <h2>Запишитесь на курс со скидкой 10%</h2>
+        <p>Акция действительна до 10 марта 2022 года</p>
+      </div>
+
+      <form action="#" method="post">
+        <p>
+          <label for="name">Имя</label>
+          <input type="text" id="name" name="name" placeholder="Имя" required>
+        </p>
+        <p>
+          <label for="phone">Телефон</label>
+          <input type="tel" id="phone" name="phone" placeholder="Телефон" required>
+        </p>
+        <p>
+          <label for="email">E-mail</label>
+          <input type="email" id="email" name="email" placeholder="E-mail" required>
+        </p>
+        <button type="submit">Оформить заявку</button>
+      </form>
+    </section>
+
+  </main>
+
+  <!-- Подвал -->
+  <footer>
+    <div>
+      <a href="#header">ROBO.SCHOOL</a>
+      <p>&copy; ROBO.SCHOOL</p>
+    </div>
+    <a href="tel:+78000001122">+7 800 000 11 22</a>
+  </footer>
+
+</body>
+</html>
